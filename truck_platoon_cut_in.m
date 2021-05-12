@@ -19,7 +19,7 @@ dt      = 1/fR;                 % Time resolution                       [s]
 time    = linspace(0,tf,tf*fR); % Time                                  [s]
 
 % Road
-distance_analysis   = 165;      % Distance of analysis                  [m]
+distance_analysis   = 160;      % Distance of analysis                  [m]
 trackWidth          = 20;       % Track width                           [m]
 laneWidth           = 4.3;      % Lane width                            [m]
 laneMargin          = 2;        % Margin lane                           [m]
@@ -193,7 +193,7 @@ for i=1:length(time)
     subplot(3,2,4)
         hold on ; grid on
         dist_max = max(max([dist_1_2 dist_2_3 dist_3_4]));
-        set(gca,'xlim',[0 TOUT(end)],'ylim',[0 1.2*dist_max])
+        set(gca,'xlim',[0 TOUT(end)],'ylim',[0 1.1*dist_max])
         cla 
         plot(TOUT,dist_1_2,'color',c(2,:))
         plot(TOUT,dist_2_3,'color',c(3,:))
@@ -219,6 +219,7 @@ for i=1:length(time)
         % ROAD MARKINGS
         sideMarkingsX = [truck_1_position_inst-distance_analysis truck_1_position_inst];
         set(gca,'xlim',[truck_1_position_inst-distance_analysis truck_1_position_inst],'ylim',[-trackWidth/2-laneMargin +trackWidth/2+laneMargin])
+        set(gca,'XTick',0:20:truck_1_position(end))
         % Central lane left marking
         plot(sideMarkingsX,[+laneWidth/2 +laneWidth/2],'k--') 
         % Central lane right marking
