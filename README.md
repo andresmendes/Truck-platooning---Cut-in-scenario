@@ -2,7 +2,7 @@
 # Truck platooning - Cut-in scenario
 Simulation and animation of a cut-in scenario between trucks one and two in a four-truck platoon with 1 second time gap.
 
-Watch animation on YouTube: https://youtu.be/N4iNygGTftk
+Watch animation on YouTube: https://youtu.be/5ReMLXiI8yo
 
-![Logo](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/5d76f6b8-ce1f-4735-9f0b-933bdee54eb2/a9edc363-a87c-4eab-be52-d08a1fea9c25/images/1620838364.png)
+![Logo](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/5d76f6b8-ce1f-4735-9f0b-933bdee54eb2/7a8ffc2e-b556-4e63-a943-67d4367d0783/images/1621262511.png)
 
