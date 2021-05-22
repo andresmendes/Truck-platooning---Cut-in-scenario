@@ -46,9 +46,9 @@ truck_3_init_speed  = 72/3.6;   % Speed of the third truck              [m/s]
 truck_3_init_pos    = truck_2_init_pos-truck_2_length-th*truck_3_init_speed;
 
 % Truck 4 (Fourth truck)
-truck_4_length      = 18.6;     % Length of the third truck             [m]
-truck_4_width       = 2.6;      % Width of the third truck              [m]
-truck_4_init_speed  = 72/3.6;   % Speed of the third truck              [m/s]
+truck_4_length      = 18.6;     % Length of the fourth truck             [m]
+truck_4_width       = 2.6;      % Width of the fourth truck              [m]
+truck_4_init_speed  = 72/3.6;   % Speed of the fourth truck              [m/s]
 % Initial position of the fourth truck   [m]
 truck_4_init_pos    = truck_3_init_pos-truck_3_length-th*truck_4_init_speed;
 
