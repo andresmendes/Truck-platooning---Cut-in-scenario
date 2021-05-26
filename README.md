@@ -9,8 +9,10 @@ Watch animation on YouTube: https://youtu.be/5ReMLXiI8yo
 ## Examples
 ### Truck platooning - Two cut-ins - 1 (Collision between car 2 and truck 3)
 Simulation and animation of two cut-ins to a four-truck platoon. The first cut-in occurs between trucks one and two and the second cut-in occurs between trucks three and four.
+
 https://youtu.be/d7El0c3c-3U
 
 ### Truck platooning - Two cut-ins - 2 (Collision between car 2 and truck 2)
 Simulation and animation of two cut-ins to a four-truck platoon. The first cut-in occurs between trucks one and two and the second cut-in occurs between trucks two and three.
+
 https://youtu.be/7QIwht2FWVM
