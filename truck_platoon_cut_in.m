@@ -139,11 +139,12 @@ dist_3_4 = truck_3_position - truck_4_position - truck_3_length;
 c = cool(N_trucks); % Colormap
     
 figure
-set(gcf,'Position',[50 50 1280 720]) % 720p
-% set(gcf,'Position',[50 50 854 480]) % 480p
+set(gcf,'Position',[50 50 1280 720]) % YouTube: 720p
+% set(gcf,'Position',[50 50 854 480]) % YouTube: 480p
+% set(gcf,'Position',[50 50 640 640]) % Social
 
 % Create and open video writer object
-v = VideoWriter('truck_platoon_cut_in.avi');
+v = VideoWriter('truck_platoon_cut_in.mp4','MPEG-4');
 v.Quality = 100;
 open(v);
 
